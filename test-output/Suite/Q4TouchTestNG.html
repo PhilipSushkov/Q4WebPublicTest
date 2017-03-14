@@ -1,0 +1,315 @@
+<html>
+<head>
+<title>TestNG:  Q4TouchTestNG</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Q4TouchTestNG</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 31 11:12:01 EDT 2015</td>
+</tr>
+<tr><td>Total time:</td><td>1241 seconds (1241998 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='q4TouchTest.ChangePassword.ChangePasswordTest()'><b>ChangePasswordTest</b><br>Test class: q4TouchTest.ChangePassword<br/>
+<a href="#Output-1219377461" onClick='toggleBox("Output-1219377461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1219377461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1219377461">
+<font color="green">Passed:</font> Start Page is opened. LOG IN button is present.<br><br/>
+<font color="green">Passed:</font> Login Page is opened. SIGN IN button is present.<br><br/>
+<font color="green">Passed:</font> You entered to Q4 Touch App successfully!<br><br/>
+Activity page is opened. QuickTips Screen is showed<br><br/>
+<font color="green">Passed:</font> Change Password Page is opened<br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/ChangePasswordPageScreenshot.png">ChangePasswordPageScreenshot</a> captured<br><br/>
+<strong>Case 1</strong><br><br/>
+Old Password: <strong>test</strong><br><br/>
+New Password: <strong>testq</strong><br><br/>
+Retype Password: <strong>testq</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull1Screenshot.png">FormFull1Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Password Changed Successfully!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Password Changed Successfully!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassChangedOK1Screenshot.png">PassChangedOK1Screenshot</a> captured<br><br/>
+----- ---- -----<br><br/>
+<strong>Case 2</strong><br><br/>
+Old Password: <strong>testq</strong><br><br/>
+New Password: <strong>testq</strong><br><br/>
+Retype Password: <strong>testq</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull2Screenshot.png">FormFull2Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Password Changed Successfully!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Password Changed Successfully!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassChangedOK2Screenshot.png">PassChangedOK2Screenshot</a> captured<br><br/>
+----- ---- -----<br><br/>
+<strong>Case 3</strong><br><br/>
+Old Password: <strong>testq</strong><br><br/>
+New Password: <strong>testw</strong><br><br/>
+Retype Password: <strong></strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull3Screenshot.png">FormFull3Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Passwords did not match. Please try again!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Passwords did not match. Please try again!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassNotMatch3Screenshot.png">PassNotMatch3Screenshot</a> captured<br><br/>
+<strong>Case 4</strong><br><br/>
+Old Password: <strong>testq</strong><br><br/>
+New Password: <strong></strong><br><br/>
+Retype Password: <strong>testw</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull4Screenshot.png">FormFull4Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Passwords did not match. Please try again!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Passwords did not match. Please try again!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassNotMatch4Screenshot.png">PassNotMatch4Screenshot</a> captured<br><br/>
+<strong>Case 5</strong><br><br/>
+Old Password: <strong>testq</strong><br><br/>
+New Password: <strong></strong><br><br/>
+Retype Password: <strong></strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull5Screenshot.png">FormFull5Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Passwords did not match. Please try again!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Passwords did not match. Please try again!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassNotMatch5Screenshot.png">PassNotMatch5Screenshot</a> captured<br><br/>
+<strong>Case 6</strong><br><br/>
+Old Password: <strong></strong><br><br/>
+New Password: <strong></strong><br><br/>
+Retype Password: <strong></strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull6Screenshot.png">FormFull6Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Passwords did not match. Please try again!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Passwords did not match. Please try again!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassNotMatch6Screenshot.png">PassNotMatch6Screenshot</a> captured<br><br/>
+<strong>Case 7</strong><br><br/>
+Old Password: <strong></strong><br><br/>
+New Password: <strong></strong><br><br/>
+Retype Password: <strong>testw</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull7Screenshot.png">FormFull7Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Passwords did not match. Please try again!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Passwords did not match. Please try again!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassNotMatch7Screenshot.png">PassNotMatch7Screenshot</a> captured<br><br/>
+<strong>Case 8</strong><br><br/>
+Old Password: <strong></strong><br><br/>
+New Password: <strong>testw</strong><br><br/>
+Retype Password: <strong></strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull8Screenshot.png">FormFull8Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Passwords did not match. Please try again!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Passwords did not match. Please try again!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassNotMatch8Screenshot.png">PassNotMatch8Screenshot</a> captured<br><br/>
+<strong>Case 9</strong><br><br/>
+Old Password: <strong></strong><br><br/>
+New Password: <strong>testw</strong><br><br/>
+Retype Password: <strong>testw</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull9Screenshot.png">FormFull9Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Old password did not match. Please try again<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Old password did not match. Please try again</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/OldPassNotMatch9Screenshot.png">OldPassNotMatch9Screenshot</a> captured<br><br/>
+<strong>Case 10</strong><br><br/>
+Old Password: <strong>wrong Password</strong><br><br/>
+New Password: <strong>testw</strong><br><br/>
+Retype Password: <strong>testw</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull10Screenshot.png">FormFull10Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Old password did not match. Please try again<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Old password did not match. Please try again</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/OldPassNotMatch10Screenshot.png">OldPassNotMatch10Screenshot</a> captured<br><br/>
+<strong>Case 11</strong><br><br/>
+Old Password: <strong>testq</strong><br><br/>
+New Password: <strong>1</strong><br><br/>
+Retype Password: <strong>1</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull11Screenshot.png">FormFull11Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Password Changed Successfully!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Password Changed Successfully!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassChangedOK11Screenshot.png">PassChangedOK11Screenshot</a> captured<br><br/>
+----- ---- -----<br><br/>
+<strong>Case 12</strong><br><br/>
+Old Password: <strong>1</strong><br><br/>
+New Password: <strong>test</strong><br><br/>
+Retype Password: <strong>test</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/FormFull12Screenshot.png">FormFull12Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Password Changed Successfully!<br><br/>
+<font color="green">Passed.</font> Actual result is the same as expeceted result: <strong>Password Changed Successfully!</strong><br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/PassChangedOK12Screenshot.png">PassChangedOK12Screenshot</a> captured<br><br/>
+----- ---- -----<br><br/>
+<font color="green">Passed:</font> Confirmation Logout Message is showed<br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/ConfLogoutMessageScreenshot.png">ConfLogoutMessageScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> You log out of App successfully<br><br/>
+Screenshot <a href="../ScreenShots/ChangePassword/LogOutScreenshot.png">LogOutScreenshot</a> captured<br><br/>
+</div>
+</td>
+<td></td>
+<td>530</td>
+<td>q4TouchTest.ChangePassword@52af6cff</td></tr>
+<tr>
+<td title='q4TouchTest.EditProfilePage.EditProfilePageTest()'><b>EditProfilePageTest</b><br>Test class: q4TouchTest.EditProfilePage<br/>
+<a href="#Output-1383877999" onClick='toggleBox("Output-1383877999", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1383877999" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1383877999">
+<font color="green">Passed:</font> Start Page is opened. LOG IN button is present.<br><br/>
+<font color="green">Passed:</font> Login Page is opened. SIGN IN button is present.<br><br/>
+<font color="green">Passed:</font> You entered to Q4 Touch App successfully!<br><br/>
+Activity page is opened. QuickTips Screen is showed<br><br/>
+<font color="green">Passed:</font> Edit Profile Page is opened<br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/EditProfilePageScreenshot.png">EditProfilePageScreenshot</a> captured<br><br/>
+<strong>Case 1</strong><br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormFull1Screenshot.png">FormFull1Screenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Profile Edited Successfully!<br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormSave1Screenshot.png">FormSave1Screenshot</a> captured<br><br/>
+<font color="green">Passed:</font> First Name <strong>Harry</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Last Name <strong>Potter</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Title <strong>-</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Phone Number <strong>123456789</strong> was saved successfully<br><br/>
+----- ---- -----<br><br/>
+<strong>Case 2</strong><br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormFull2Screenshot.png">FormFull2Screenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Profile Edited Successfully!<br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormSave2Screenshot.png">FormSave2Screenshot</a> captured<br><br/>
+<font color="green">Passed:</font> First Name <strong>Stephen</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Last Name <strong>Harper</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Title <strong>Politician</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Phone Number <strong>-</strong> was saved successfully<br><br/>
+----- ---- -----<br><br/>
+<strong>Case 3</strong><br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormFull3Screenshot.png">FormFull3Screenshot</a> captured<br><br/>
+<font color="blue">Info:</font> Required fields cannot be empty!<br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormEmpty3Screenshot.png">FormEmpty3Screenshot</a> captured<br><br/>
+<strong>Case 4</strong><br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormFull4Screenshot.png">FormFull4Screenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Profile Edited Successfully!<br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/FormSave4Screenshot.png">FormSave4Screenshot</a> captured<br><br/>
+<font color="green">Passed:</font> First Name <strong>Philip</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Last Name <strong>Sushkov</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Title <strong>-</strong> was saved successfully<br><br/>
+<font color="green">Passed:</font> Phone Number <strong>-</strong> was saved successfully<br><br/>
+----- ---- -----<br><br/>
+<font color="green">Passed:</font> Confirmation Logout Message is showed<br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/ConfLogoutMessageScreenshot.png">ConfLogoutMessageScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> You log out of App successfully<br><br/>
+Screenshot <a href="../ScreenShots/EditProfile/LogOutScreenshot.png">LogOutScreenshot</a> captured<br><br/>
+</div>
+</td>
+<td></td>
+<td>220</td>
+<td>q4TouchTest.EditProfilePage@735b478</td></tr>
+<tr>
+<td title='q4TouchTest.LeftMenuItems.LeftMenuItemsTest()'><b>LeftMenuItemsTest</b><br>Test class: q4TouchTest.LeftMenuItems<br/>
+<a href="#Output-1174731802" onClick='toggleBox("Output-1174731802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1174731802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1174731802">
+<font color="green">Passed:</font> Start Page is opened. LOG IN button is present.<br><br/>
+<font color="green">Passed:</font> Login Page is opened. SIGN IN button is present.<br><br/>
+<font color="green">Passed:</font> You entered to Q4 Touch App successfully!<br><br/>
+Activity page is opened. QuickTips Screen is showed<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Activity</strong> is present<br><br/>
+<font color="green">Passed:</font>Activity tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/ActivityTabScreenshot.png">ActivityTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Watchlist</strong> is present<br><br/>
+QuickTips Screen or Help window closed<br><br/>
+<font color="green">Passed: </font>Watchlist tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/WatchlistTabScreenshot.png">WatchlistTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>My Q4 Team</strong> is present<br><br/>
+<font color="green">Passed:</font>My Q4 Team tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/My Q4 TeamTabScreenshot.png">My Q4 TeamTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Support Tickets</strong> is present<br><br/>
+<font color="green">Passed:</font>Support Tickets tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/Support TicketsTabScreenshot.png">Support TicketsTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Checklist</strong> is present<br><br/>
+<font color="green">Passed:</font>Checklist tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/ChecklistTabScreenshot.png">ChecklistTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Analytics</strong> is present<br><br/>
+<font color="green">Passed:</font>Analytics tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/AnalyticsTabScreenshot.png">AnalyticsTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Trade Indicator</strong> is present<br><br/>
+QuickTips Screen or Help window closed<br><br/>
+<font color="green">Passed: </font>Trade Indicator tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/Trade IndicatorTabScreenshot.png">Trade IndicatorTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Surveillance</strong> is present<br><br/>
+QuickTips Screen or Help window closed<br><br/>
+<font color="green">Passed: </font>Surveillance tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/SurveillanceTabScreenshot.png">SurveillanceTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Relative Performance</strong> is present<br><br/>
+QuickTips Screen or Help window closed<br><br/>
+<font color="green">Passed: </font>Relative Performance tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/Relative PerformanceTabScreenshot.png">Relative PerformanceTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>Trading Analytics</strong> is present<br><br/>
+QuickTips Screen or Help window closed<br><br/>
+<font color="green">Passed: </font>Trading Analytics tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/Trading AnalyticsTabScreenshot.png">Trading AnalyticsTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>settings</strong> is present<br><br/>
+<font color="green">Passed:</font>settings tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/settingsTabScreenshot.png">settingsTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>alerts</strong> is present<br><br/>
+<font color="green">Passed:</font>alerts tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/alertsTabScreenshot.png">alertsTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Menu Item <strong>help</strong> is present<br><br/>
+<font color="green">Passed:</font>help tab is opened<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/helpTabScreenshot.png">helpTabScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> Confirmation Logout Message is showed<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/ConfLogoutMessageScreenshot.png">ConfLogoutMessageScreenshot</a> captured<br><br/>
+<font color="green">Passed:</font> You log out of App successfully<br><br/>
+Screenshot <a href="../ScreenShots/LeftMenuItem/LogOutScreenshot.png">LogOutScreenshot</a> captured<br><br/>
+</div>
+</td>
+<td></td>
+<td>454</td>
+<td>q4TouchTest.LeftMenuItems@2d3fcdbd</td></tr>
+</table><p>
+</body>
+</html>

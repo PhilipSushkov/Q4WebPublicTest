@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="39"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="532.256">
+  <properties />
+  
+  
+            <testcase name="Q4Web_SmokeMigrationTest" time="11.164" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="14.438" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="13.395" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="24.562" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="18.671" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="10.167" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="15.706" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="10.128" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="9.710" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="26.960" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="21.500" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="10.843" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.341" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="12.618" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.135" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.387" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.235" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.388" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="10.021" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.110" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="13.521" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.003" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="9.819" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="20.684" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="15.472" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="13.639" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.568" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="23.447" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="19.885" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.707" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.800" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="21.036" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.702" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="10.573" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="13.918" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="9.459" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="17.580" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.797" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="11.167" classname="q4WebTest.ThreadLocalDemo" />
+      
+</testsuite>

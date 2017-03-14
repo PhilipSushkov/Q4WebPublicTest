@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<h2><a href="http://www.goldcorp.com/">http://www.goldcorp.com/</a></h2>]]>
+    </line>
+    <line>
+      <![CDATA[<div class='log' id="Output-3">]]>
+    </line>
+    <line>
+      <![CDATA[<font color="green">Passed:</font> Web-site <strong>http://www.goldcorp.com/</strong> was opened successfully!<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="3"><strong>Title: </strong>Goldcorp Inc. - Home</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="red">Failed.</font> The version is incorrect: Expected result: <strong>4.1.3.35</strong>, but Actual result is: <strong>4.2.1.27</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/HomeSrn3.png">HomeSrn3</a> captured<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><font size="3"><strong> ----- Stock Quote Page ----- </strong></font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="#Output-3-1486Stock Quote Page" onClick='toggleBox("Output-3-1486Stock Quote Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Stock-Information/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Stock-Information/default.aspx</strong></a></font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class='log' id="Output-3-1486Stock Quote Page">]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Stock Information
+</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Stock Quote Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>Stock Quote</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>3. Checkpoint Name: </strong>Stock Chart Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>4. Checkpoint Name: </strong>Historical Stock Quote Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>Historical Quote</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>5. Checkpoint Name: </strong>Dividend</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>6. Checkpoint Name: </strong>Investment Calculator</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>7. Checkpoint Name: </strong>TickerTech Chart</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>8. Checkpoint Name: </strong>Q4 Stock Chart</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="orange">Info:</font> Element isn't found - <strong>xpath: //div[@class='highcharts-container']</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1486Srn3.png">1486Srn3</a> captured<br>]]>
+    </line>
+    <line>
+      <![CDATA[</div>]]>
+    </line>
+    <line>
+      <![CDATA[<br><font size="3"><strong> ----- Financial Reports Page ----- </strong></font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="#Output-3-1474Financial Reports Page" onClick='toggleBox("Output-3-1474Financial Reports Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/default.aspx</strong></a></font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class='log' id="Output-3-1474Financial Reports Page">]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Reports & Filings
+</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Report pdf</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Report: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> IR Factsheet: http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Information Form: http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Corporate Presentation: http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/Annual-Information-Form-(Final).pdf. Response Code: <strong>200</strong>. Size: <strong>1462273</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 AIF: http://s1.q4cdn.com/038672619/files/annual_reports/Annual-Information-Form-(Final).pdf. Response Code: <strong>200</strong>. Size: <strong>1462273</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1070267</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 AIF: http://s1.q4cdn.com/038672619/files/annual_reports/AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1070267</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/AIF-Goldcorp-2013.pdf. Response Code: <strong>200</strong>. Size: <strong>2076391</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 AIF: http://s1.q4cdn.com/038672619/files/annual_reports/AIF-Goldcorp-2013.pdf. Response Code: <strong>200</strong>. Size: <strong>2076391</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/2102%20Annual%20Information%20Form.pdf. Response Code: <strong>200</strong>. Size: <strong>1202809</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/2102%20Annual%20Information%20Form.pdf. Response Code: <strong>200</strong>. Size: <strong>1202809</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/AIFDec312010.pdf. Response Code: <strong>200</strong>. Size: <strong>916859</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/AIFDec312010.pdf. Response Code: <strong>200</strong>. Size: <strong>916859</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/AIF_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>947688</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/AIF_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>947688</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/aif_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>910790</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/aif_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>910790</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/aif.pdf. Response Code: <strong>200</strong>. Size: <strong>794913</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/aif.pdf. Response Code: <strong>200</strong>. Size: <strong>794913</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-and-Access-Notification-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>151109</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-and-Access-Notification-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>151109</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-of-Meeting-(SEDAR)-Updated.pdf. Response Code: <strong>200</strong>. Size: <strong>41619</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Notice of Annual and Special Meeting: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-of-Meeting-(SEDAR)-Updated.pdf. Response Code: <strong>200</strong>. Size: <strong>41619</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Circular-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>6237142</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Circular-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>6237142</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Form-of-Proxy-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>70012</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Form-of-Proxy-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>70012</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/854021-Goldcorp-Proxy-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>150803</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/annual_reports/854021-Goldcorp-Proxy-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>150803</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/854017-Goldcorp-Notice-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>112805</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/annual_reports/854017-Goldcorp-Notice-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>112805</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/Circular2.pdf. Response Code: <strong>200</strong>. Size: <strong>9521240</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Notice of Annual and Special Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/annual_reports/Circular2.pdf. Response Code: <strong>200</strong>. Size: <strong>9521240</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/NoticeandAccessNotification.pdf. Response Code: <strong>200</strong>. Size: <strong>70859</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/annual_reports/NoticeandAccessNotification.pdf. Response Code: <strong>200</strong>. Size: <strong>70859</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/FormofProxy.pdf. Response Code: <strong>200</strong>. Size: <strong>22587</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/annual_reports/FormofProxy.pdf. Response Code: <strong>200</strong>. Size: <strong>22587</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/9629959v17GoldcorpInfoCircular2014.pdf. Response Code: <strong>200</strong>. Size: <strong>1331378</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Notice of Annual and Special Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/annual_reports/9629959v17GoldcorpInfoCircular2014.pdf. Response Code: <strong>200</strong>. Size: <strong>1331378</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Notice_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>221634</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Notice_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>221634</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Form%20of%20Proxy%20(Goldcorp).pdf. Response Code: <strong>200</strong>. Size: <strong>235212</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Form%20of%20Proxy%20(Goldcorp).pdf. Response Code: <strong>200</strong>. Size: <strong>235212</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Circular_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>2915852</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Notice of Annual and Special Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Circular_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>2915852</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Notice-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>13145</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Notice of Annual Meeting: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Notice-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>13145</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Proxy-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>17742</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Proxy-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>17742</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Circular-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>986381</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Circular-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>986381</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/circular-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>1540195</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Notice of Annual Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/circular-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>1540195</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/proxy-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>96444</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/proxy-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>96444</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Management-Information-Circular_2010.pdf. Response Code: <strong>200</strong>. Size: <strong>1508014</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Notice of Annual Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Management-Information-Circular_2010.pdf. Response Code: <strong>200</strong>. Size: <strong>1508014</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Form-of-Proxy-Revised.pdf. Response Code: <strong>200</strong>. Size: <strong>106093</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Form-of-Proxy-Revised.pdf. Response Code: <strong>200</strong>. Size: <strong>106093</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Management_Information_Circular_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>372808</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Notice of Annual Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Management_Information_Circular_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>372808</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_Proxy_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>21659</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_Proxy_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>21659</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/notice_of_asms.pdf. Response Code: <strong>200</strong>. Size: <strong>502659</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Notice of Annual and Special Meeting of Shareholders: http://s1.q4cdn.com/038672619/files/doc_financial/notice_of_asms.pdf. Response Code: <strong>200</strong>. Size: <strong>502659</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/notice_to_shareholders.pdf. Response Code: <strong>200</strong>. Size: <strong>11853</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Notice to Shareholders re: RSU Plan – May 6, 2008: http://s1.q4cdn.com/038672619/files/doc_financial/notice_to_shareholders.pdf. Response Code: <strong>200</strong>. Size: <strong>11853</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/rsu_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>45679</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Goldcorp Amended RSU Plan: http://s1.q4cdn.com/038672619/files/doc_financial/rsu_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>45679</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Management_IC_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>499811</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Management_IC_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>499811</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>200</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1474Srn3.png">1474Srn3</a> captured<br>]]>
+    </line>
+    <line>
+      <![CDATA[</div>]]>
+    </line>
+    <line>
+      <![CDATA[<br><font size="3"><strong> ----- Annual Report Page ----- </strong></font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="#Output-3-1226Annual Report Page" onClick='toggleBox("Output-3-1226Annual Report Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/News/News-Details/2004/ADJUSTMENT-TO-CASHFLOW-2004-ANNUAL-REPORT/default.aspx">http://www.goldcorp.com/English/Investor-Resources/News/News-Details/2004/ADJUSTMENT-TO-CASHFLOW-2004-ANNUAL-REPORT/default.aspx</strong></a></font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class='log' id="Output-3-1226Annual Report Page">]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="orange">Info:</font> Actual result is NOT THE SAME as expected result: <strong>.[^(0-9)]*annual[a-z- ]*report[a-z- ]*</strong> or NO SUCH ELEMENT!<br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp; --- Actual result(s) --- <br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;Goldcorp Inc. - ADJUSTMENT TO CASHFLOW 2004 ANNUAL REPORT<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Report pdf</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Report: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> IR Factsheet: http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Information Form: http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Corporate Presentation: http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Download this Press Release (PDF 132 KB): http://s1.q4cdn.com/038672619/files/Doc_news/Andean%20Resources/andean_041201a.pdf. Response Code: <strong>200</strong>. Size: <strong>135240</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>200</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1226Srn3.png">1226Srn3</a> captured<br>]]>
+    </line>
+    <line>
+      <![CDATA[</div>]]>
+    </line>
+    <line>
+      <![CDATA[<br><font size="3"><strong> ----- Quarterly Reports Page ----- </strong></font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="#Output-3-1511Quarterly Reports Page" onClick='toggleBox("Output-3-1511Quarterly Reports Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/Quarterly-Reports/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/Quarterly-Reports/default.aspx</strong></a></font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class='log' id="Output-3-1511Quarterly Reports Page">]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Reports & Filings - Quarterly Reports
+</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Report pdf</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Report: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> IR Factsheet: http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Information Form: http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Corporate Presentation: http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 First Quarter Report	 (PDF 875 KB): http://s1.q4cdn.com/038672619/files/Q1-2016-MDA_Financials-FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>896389</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Third Quarter Report (PDF 989 KB): http://s1.q4cdn.com/038672619/files/Q3-2015-MD-A_Financials.pdf. Response Code: <strong>200</strong>. Size: <strong>1012761</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Second Quarter Report (PDF 870 KB): http://s1.q4cdn.com/038672619/files/MDA-FS-2015Q2.pdf. Response Code: <strong>200</strong>. Size: <strong>891214</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 First Quarter Report (PDF 842 KB): http://s1.q4cdn.com/038672619/files/Q1-2015-Combined-MD-A_Financials_v001_g40012.pdf. Response Code: <strong>200</strong>. Size: <strong>861753</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Third Quarter Report (PDF 1.06 MB): http://s1.q4cdn.com/038672619/files/doc_financial/2014/Financial-report-Q3-2014_v001_t832vl.pdf. Response Code: <strong>200</strong>. Size: <strong>1088283</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Second Quarter (PDF 902 KB): http://s1.q4cdn.com/038672619/files/Q2%20MD-A%20Financials_v001_w4n673.pdf. Response Code: <strong>200</strong>. Size: <strong>923959</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 First Quarter (PDF 3.83 MB): http://s1.q4cdn.com/038672619/files/MD&A_Financials%20Q1%202014_v001_q1u7u8.pdf. Response Code: <strong>200</strong>. Size: <strong>3925048</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Third Quarter (PDF 3.41 MB): http://s1.q4cdn.com/038672619/files/MDA%20and%20FS%20combined%20Q3%202013_v003_n5ccpy.pdf. Response Code: <strong>200</strong>. Size: <strong>3491543</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Second Quarter  (PDF 2.99 MB): http://s1.q4cdn.com/038672619/files/Q2%202013%20Financial%20Report_v001_p25l79.pdf. Response Code: <strong>200</strong>. Size: <strong>3061557</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 First Quarter  (PDF 495 KB): http://s1.q4cdn.com/038672619/files/Q1%202013%20Combined%20MDA%20and%20FS%20(booklet)_v001_h83kap.pdf. Response Code: <strong>200</strong>. Size: <strong>507162</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Fourth Quarter Report (PDF 2.10 MB): http://s1.q4cdn.com/038672619/files/MDA%20and%20FS%20combined%20Q4%202012%20(4).pdf. Response Code: <strong>200</strong>. Size: <strong>2147932</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Third Quarter Report (PDF 474 KB): http://s1.q4cdn.com/038672619/files/MDA%20&%20FS%20Q3%202012_v001_i1kyrr.pdf. Response Code: <strong>200</strong>. Size: <strong>485032</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Second Quarter Report (PDF 1.02 MB): http://s1.q4cdn.com/038672619/files/Q2%202012%20MDA%20Financials%20FINAL_v001_p99533.pdf. Response Code: <strong>200</strong>. Size: <strong>1046920</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 First Quarter Report (PDF 496 KB): http://s1.q4cdn.com/038672619/files/Financials%20Q1%202012_v001_z7rr8t.pdf. Response Code: <strong>200</strong>. Size: <strong>508406</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Third Quarter Report (PDF 435 KB): http://s1.q4cdn.com/038672619/files/Q3%202011%20MD&A-Financials.pdf. Response Code: <strong>200</strong>. Size: <strong>445535</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Second Quarter Report (PDF 1.65 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_Q2_2011_Report_Comp.pdf. Response Code: <strong>200</strong>. Size: <strong>1692036</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 First Quarter Report (PDF 735 KB): http://s1.q4cdn.com/038672619/files/doc_financial/q1_2011_final_mda_fs_combined_for_printing.pdf. Response Code: <strong>200</strong>. Size: <strong>752470</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Third Quarter Report (PDF 519 KB): http://s1.q4cdn.com/038672619/files/Financial%20Report%20Q3%202010_v001_b1yi33.pdf. Response Code: <strong>200</strong>. Size: <strong>531739</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Second Quarter Report (PDF 803 KB): http://s1.q4cdn.com/038672619/files/doc_financial/MDA_FS_2010_06_Amended.pdf. Response Code: <strong>200</strong>. Size: <strong>821992</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 First Quarter Report (PDF 389 KB): http://s1.q4cdn.com/038672619/files/doc_financial/MDA_FS_Final_Combined_2010_03.pdf. Response Code: <strong>200</strong>. Size: <strong>398507</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Third Quarter Report (PDF 538 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_complete_Q3-2009.pdf. Response Code: <strong>200</strong>. Size: <strong>551211</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Second Quarter Report (PDF 458 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Q2-Report.pdf. Response Code: <strong>200</strong>. Size: <strong>469044</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 First Quarter Report (PDF 340 KB): http://s1.q4cdn.com/038672619/files/doc_financial/2009_G_Q1_MDA_and_Financial_Statements_May_5_.pdf. Response Code: <strong>200</strong>. Size: <strong>348331</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Third Quarter Report (PDF 896 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q32008Report.pdf. Response Code: <strong>200</strong>. Size: <strong>917791</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Second Quarter Report (PDF 1.38 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Q22008Report.pdf. Response Code: <strong>200</strong>. Size: <strong>1410905</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 First Quarter Report (PDF 287 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q12008Report.pdf. Response Code: <strong>200</strong>. Size: <strong>293416</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 Third Quarter Report (PDF 894 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q32007Report.pdf. Response Code: <strong>200</strong>. Size: <strong>915252</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 Second Quarter Report (PDF 1.65 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Q22007Report.pdf. Response Code: <strong>200</strong>. Size: <strong>1691972</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 First Quarter Report (PDF 1.60 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Q12007Report.pdf. Response Code: <strong>200</strong>. Size: <strong>1642011</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2006 Third Quarter Report (PDF 260 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q32006Report.pdf. Response Code: <strong>200</strong>. Size: <strong>266133</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2006 Second Quarter Report (PDF 237 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q22006Report.pdf. Response Code: <strong>200</strong>. Size: <strong>243099</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2006 First Quarter Report (PDF 268 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q12006Report.pdf. Response Code: <strong>200</strong>. Size: <strong>273960</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2005 Third Quarter Report (PDF 194 KB): http://s1.q4cdn.com/038672619/files/doc_financial/G-3Q-05.pdf. Response Code: <strong>200</strong>. Size: <strong>198722</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2005 Second Quarter Report (PDF 188 KB): http://s1.q4cdn.com/038672619/files/doc_financial/2005_Q2.pdf. Response Code: <strong>200</strong>. Size: <strong>192350</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2005 First Quarter Report (PDF 159 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Final_Q1_Report.pdf. Response Code: <strong>200</strong>. Size: <strong>163186</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2004 Third Quarter Report  (PDF 138 KB): http://s1.q4cdn.com/038672619/files/doc_financial/G-3Q-04.pdf. Response Code: <strong>200</strong>. Size: <strong>141511</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2004 Second Quarter Report (PDF 133 KB): http://s1.q4cdn.com/038672619/files/doc_financial/G-2Q-04.pdf. Response Code: <strong>200</strong>. Size: <strong>136034</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2004 First Quarter Report (PDF 112 KB): http://s1.q4cdn.com/038672619/files/doc_financial/GLD1Q-04&MDAwebsite.pdf. Response Code: <strong>200</strong>. Size: <strong>114937</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>200</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1511Srn3.png">1511Srn3</a> captured<br>]]>
+    </line>
+    <line>
+      <![CDATA[</div>]]>
+    </line>
+    <line>
+      <![CDATA[<br><font size="3"><strong> ----- News and Press Releases Page ----- </strong></font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="#Output-3-1493News and Press Releases Page" onClick='toggleBox("Output-3-1493News and Press Releases Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/News/default.aspx">http://www.goldcorp.com/English/Investor-Resources/News/default.aspx</strong></a></font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class='log' id="Output-3-1493News and Press Releases Page">]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - News
+</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1493Srn3.png">1493Srn3</a> captured<br>]]>
+    </line>
+    <line>
+      <![CDATA[</div>]]>
+    </line>
+    <line>
+      <![CDATA[<br><font size="3"><strong> ----- Events Page ----- </strong></font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="#Output-3-1498Events Page" onClick='toggleBox("Output-3-1498Events Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Events-and-Webcasts/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Events-and-Webcasts/default.aspx</strong></a></font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<div class='log' id="Output-3-1498Events Page">]]>
+    </line>
+    <line>
+      <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Events & Webcasts
+</strong> is the same as expected result.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1498Srn3.png">1498Srn3</a> captured<br>]]>
+    </line>
+    <line>
+      <![CDATA[</div>]]>
+    </line>
+    <line>
+      <![CDATA[<br><font size="3"><strong> ----- RSS Feeds page ----- </strong></font><br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color="orange">Info:</font> Page isn't found - <strong>.+(rss-feed[s]*|-rss|feed[s]*)/default.aspx</strong><br>]]>
+    </line>
+    <line>
+      <![CDATA[</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="219278" started-at="2016-06-24T14:03:46Z" finished-at="2016-06-24T14:07:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="219278" started-at="2016-06-24T14:03:46Z" finished-at="2016-06-24T14:07:26Z">
+      <class name="q4WebTest.ThreadLocalDemo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:q4WebTest.ThreadLocalDemo@cd2dae5]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2016-06-24T10:03:47Z" finished-at="2016-06-24T10:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Q4Web_SmokeMigrationTest(java.lang.String, java.lang.String)[pri:0, instance:q4WebTest.ThreadLocalDemo@cd2dae5]" name="Q4Web_SmokeMigrationTest" duration-ms="218869" started-at="2016-06-24T10:03:47Z" data-provider="search-terms" finished-at="2016-06-24T10:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.goldcorp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h2><a href="http://www.goldcorp.com/">http://www.goldcorp.com/</a></h2>]]>
+            </line>
+            <line>
+              <![CDATA[<div class='log' id="Output-3">]]>
+            </line>
+            <line>
+              <![CDATA[<font color="green">Passed:</font> Web-site <strong>http://www.goldcorp.com/</strong> was opened successfully!<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="3"><strong>Title: </strong>Goldcorp Inc. - Home</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="red">Failed.</font> The version is incorrect: Expected result: <strong>4.1.3.35</strong>, but Actual result is: <strong>4.2.1.27</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/HomeSrn3.png">HomeSrn3</a> captured<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><font size="3"><strong> ----- Stock Quote Page ----- </strong></font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="#Output-3-1486Stock Quote Page" onClick='toggleBox("Output-3-1486Stock Quote Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Stock-Information/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Stock-Information/default.aspx</strong></a></font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class='log' id="Output-3-1486Stock Quote Page">]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Stock Information
+</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Stock Quote Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>Stock Quote</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>3. Checkpoint Name: </strong>Stock Chart Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>4. Checkpoint Name: </strong>Historical Stock Quote Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>Historical Quote</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>5. Checkpoint Name: </strong>Dividend</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>6. Checkpoint Name: </strong>Investment Calculator</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>7. Checkpoint Name: </strong>TickerTech Chart</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>8. Checkpoint Name: </strong>Q4 Stock Chart</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="orange">Info:</font> Element isn't found - <strong>xpath: //div[@class='highcharts-container']</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1486Srn3.png">1486Srn3</a> captured<br>]]>
+            </line>
+            <line>
+              <![CDATA[</div>]]>
+            </line>
+            <line>
+              <![CDATA[<br><font size="3"><strong> ----- Financial Reports Page ----- </strong></font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="#Output-3-1474Financial Reports Page" onClick='toggleBox("Output-3-1474Financial Reports Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/default.aspx</strong></a></font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class='log' id="Output-3-1474Financial Reports Page">]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Reports & Filings
+</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Report pdf</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Report: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> IR Factsheet: http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Information Form: http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Corporate Presentation: http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/Annual-Information-Form-(Final).pdf. Response Code: <strong>200</strong>. Size: <strong>1462273</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 AIF: http://s1.q4cdn.com/038672619/files/annual_reports/Annual-Information-Form-(Final).pdf. Response Code: <strong>200</strong>. Size: <strong>1462273</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1070267</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 AIF: http://s1.q4cdn.com/038672619/files/annual_reports/AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1070267</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/AIF-Goldcorp-2013.pdf. Response Code: <strong>200</strong>. Size: <strong>2076391</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 AIF: http://s1.q4cdn.com/038672619/files/annual_reports/AIF-Goldcorp-2013.pdf. Response Code: <strong>200</strong>. Size: <strong>2076391</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/2102%20Annual%20Information%20Form.pdf. Response Code: <strong>200</strong>. Size: <strong>1202809</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/2102%20Annual%20Information%20Form.pdf. Response Code: <strong>200</strong>. Size: <strong>1202809</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/AIFDec312010.pdf. Response Code: <strong>200</strong>. Size: <strong>916859</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/AIFDec312010.pdf. Response Code: <strong>200</strong>. Size: <strong>916859</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/AIF_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>947688</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/AIF_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>947688</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/aif_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>910790</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/aif_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>910790</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/aif.pdf. Response Code: <strong>200</strong>. Size: <strong>794913</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 AIF: http://s1.q4cdn.com/038672619/files/doc_financial/aif.pdf. Response Code: <strong>200</strong>. Size: <strong>794913</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-and-Access-Notification-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>151109</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-and-Access-Notification-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>151109</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-of-Meeting-(SEDAR)-Updated.pdf. Response Code: <strong>200</strong>. Size: <strong>41619</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Notice of Annual and Special Meeting: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Notice-of-Meeting-(SEDAR)-Updated.pdf. Response Code: <strong>200</strong>. Size: <strong>41619</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Circular-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>6237142</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Circular-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>6237142</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Form-of-Proxy-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>70012</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Form-of-Proxy-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>70012</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/854021-Goldcorp-Proxy-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>150803</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/annual_reports/854021-Goldcorp-Proxy-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>150803</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/854017-Goldcorp-Notice-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>112805</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/annual_reports/854017-Goldcorp-Notice-Sedar.pdf. Response Code: <strong>200</strong>. Size: <strong>112805</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/Circular2.pdf. Response Code: <strong>200</strong>. Size: <strong>9521240</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Notice of Annual and Special Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/annual_reports/Circular2.pdf. Response Code: <strong>200</strong>. Size: <strong>9521240</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/NoticeandAccessNotification.pdf. Response Code: <strong>200</strong>. Size: <strong>70859</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/annual_reports/NoticeandAccessNotification.pdf. Response Code: <strong>200</strong>. Size: <strong>70859</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/FormofProxy.pdf. Response Code: <strong>200</strong>. Size: <strong>22587</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/annual_reports/FormofProxy.pdf. Response Code: <strong>200</strong>. Size: <strong>22587</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/annual_reports/9629959v17GoldcorpInfoCircular2014.pdf. Response Code: <strong>200</strong>. Size: <strong>1331378</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Notice of Annual and Special Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/annual_reports/9629959v17GoldcorpInfoCircular2014.pdf. Response Code: <strong>200</strong>. Size: <strong>1331378</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Notice_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>221634</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Notice and Access Notification to Shareholders: http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Notice_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>221634</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Form%20of%20Proxy%20(Goldcorp).pdf. Response Code: <strong>200</strong>. Size: <strong>235212</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Form%20of%20Proxy%20(Goldcorp).pdf. Response Code: <strong>200</strong>. Size: <strong>235212</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Circular_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>2915852</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Notice of Annual and Special Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/docs_investors/2013%20Goldcorp%20Circular_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>2915852</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Notice-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>13145</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Notice of Annual Meeting: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Notice-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>13145</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Proxy-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>17742</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Proxy-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>17742</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Circular-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>986381</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Circular-Mar-2012.pdf. Response Code: <strong>200</strong>. Size: <strong>986381</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/circular-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>1540195</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Notice of Annual Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/circular-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>1540195</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/proxy-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>96444</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/proxy-apr-11.pdf. Response Code: <strong>200</strong>. Size: <strong>96444</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Management-Information-Circular_2010.pdf. Response Code: <strong>200</strong>. Size: <strong>1508014</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Notice of Annual Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Management-Information-Circular_2010.pdf. Response Code: <strong>200</strong>. Size: <strong>1508014</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Form-of-Proxy-Revised.pdf. Response Code: <strong>200</strong>. Size: <strong>106093</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Form-of-Proxy-Revised.pdf. Response Code: <strong>200</strong>. Size: <strong>106093</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Management_Information_Circular_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>372808</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Notice of Annual Meeting and Management Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Management_Information_Circular_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>372808</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_Proxy_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>21659</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Goldcorp Proxy: http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_Proxy_2009.pdf. Response Code: <strong>200</strong>. Size: <strong>21659</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/notice_of_asms.pdf. Response Code: <strong>200</strong>. Size: <strong>502659</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Notice of Annual and Special Meeting of Shareholders: http://s1.q4cdn.com/038672619/files/doc_financial/notice_of_asms.pdf. Response Code: <strong>200</strong>. Size: <strong>502659</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/notice_to_shareholders.pdf. Response Code: <strong>200</strong>. Size: <strong>11853</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Notice to Shareholders re: RSU Plan – May 6, 2008: http://s1.q4cdn.com/038672619/files/doc_financial/notice_to_shareholders.pdf. Response Code: <strong>200</strong>. Size: <strong>11853</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/rsu_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>45679</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Goldcorp Amended RSU Plan: http://s1.q4cdn.com/038672619/files/doc_financial/rsu_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>45679</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_financial/Management_IC_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>499811</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 Information Circular: http://s1.q4cdn.com/038672619/files/doc_financial/Management_IC_2008.pdf. Response Code: <strong>200</strong>. Size: <strong>499811</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>200</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1474Srn3.png">1474Srn3</a> captured<br>]]>
+            </line>
+            <line>
+              <![CDATA[</div>]]>
+            </line>
+            <line>
+              <![CDATA[<br><font size="3"><strong> ----- Annual Report Page ----- </strong></font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="#Output-3-1226Annual Report Page" onClick='toggleBox("Output-3-1226Annual Report Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/News/News-Details/2004/ADJUSTMENT-TO-CASHFLOW-2004-ANNUAL-REPORT/default.aspx">http://www.goldcorp.com/English/Investor-Resources/News/News-Details/2004/ADJUSTMENT-TO-CASHFLOW-2004-ANNUAL-REPORT/default.aspx</strong></a></font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class='log' id="Output-3-1226Annual Report Page">]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="orange">Info:</font> Actual result is NOT THE SAME as expected result: <strong>.[^(0-9)]*annual[a-z- ]*report[a-z- ]*</strong> or NO SUCH ELEMENT!<br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp; --- Actual result(s) --- <br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;Goldcorp Inc. - ADJUSTMENT TO CASHFLOW 2004 ANNUAL REPORT<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Report pdf</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Report: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> IR Factsheet: http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Information Form: http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Corporate Presentation: http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Download this Press Release (PDF 132 KB): http://s1.q4cdn.com/038672619/files/Doc_news/Andean%20Resources/andean_041201a.pdf. Response Code: <strong>200</strong>. Size: <strong>135240</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>200</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1226Srn3.png">1226Srn3</a> captured<br>]]>
+            </line>
+            <line>
+              <![CDATA[</div>]]>
+            </line>
+            <line>
+              <![CDATA[<br><font size="3"><strong> ----- Quarterly Reports Page ----- </strong></font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="#Output-3-1511Quarterly Reports Page" onClick='toggleBox("Output-3-1511Quarterly Reports Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/Quarterly-Reports/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Reports-and-Filings/Quarterly-Reports/default.aspx</strong></a></font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class='log' id="Output-3-1511Quarterly Reports Page">]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Reports & Filings - Quarterly Reports
+</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>2. Checkpoint Name: </strong>Report pdf</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Report: http://s1.q4cdn.com/038672619/files/doc_downloads/ManagementInfoCirular/Annual-Report-(SEDAR).pdf. Response Code: <strong>200</strong>. Size: <strong>712759</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> IR Factsheet: http://s1.q4cdn.com/038672619/files/Fact-Sheet_Mar-2016-FINALv2.pdf. Response Code: <strong>200</strong>. Size: <strong>2638311</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Annual Information Form: http://s1.q4cdn.com/038672619/files/2015-AIF.pdf. Response Code: <strong>200</strong>. Size: <strong>1462269</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> : http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Corporate Presentation: http://s1.q4cdn.com/038672619/files/2016-Corporate-Update_April-updated_FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>1901869</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2016 First Quarter Report	 (PDF 875 KB): http://s1.q4cdn.com/038672619/files/Q1-2016-MDA_Financials-FINAL.pdf. Response Code: <strong>200</strong>. Size: <strong>896389</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Third Quarter Report (PDF 989 KB): http://s1.q4cdn.com/038672619/files/Q3-2015-MD-A_Financials.pdf. Response Code: <strong>200</strong>. Size: <strong>1012761</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 Second Quarter Report (PDF 870 KB): http://s1.q4cdn.com/038672619/files/MDA-FS-2015Q2.pdf. Response Code: <strong>200</strong>. Size: <strong>891214</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2015 First Quarter Report (PDF 842 KB): http://s1.q4cdn.com/038672619/files/Q1-2015-Combined-MD-A_Financials_v001_g40012.pdf. Response Code: <strong>200</strong>. Size: <strong>861753</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Third Quarter Report (PDF 1.06 MB): http://s1.q4cdn.com/038672619/files/doc_financial/2014/Financial-report-Q3-2014_v001_t832vl.pdf. Response Code: <strong>200</strong>. Size: <strong>1088283</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 Second Quarter (PDF 902 KB): http://s1.q4cdn.com/038672619/files/Q2%20MD-A%20Financials_v001_w4n673.pdf. Response Code: <strong>200</strong>. Size: <strong>923959</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2014 First Quarter (PDF 3.83 MB): http://s1.q4cdn.com/038672619/files/MD&A_Financials%20Q1%202014_v001_q1u7u8.pdf. Response Code: <strong>200</strong>. Size: <strong>3925048</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Third Quarter (PDF 3.41 MB): http://s1.q4cdn.com/038672619/files/MDA%20and%20FS%20combined%20Q3%202013_v003_n5ccpy.pdf. Response Code: <strong>200</strong>. Size: <strong>3491543</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 Second Quarter  (PDF 2.99 MB): http://s1.q4cdn.com/038672619/files/Q2%202013%20Financial%20Report_v001_p25l79.pdf. Response Code: <strong>200</strong>. Size: <strong>3061557</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2013 First Quarter  (PDF 495 KB): http://s1.q4cdn.com/038672619/files/Q1%202013%20Combined%20MDA%20and%20FS%20(booklet)_v001_h83kap.pdf. Response Code: <strong>200</strong>. Size: <strong>507162</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Fourth Quarter Report (PDF 2.10 MB): http://s1.q4cdn.com/038672619/files/MDA%20and%20FS%20combined%20Q4%202012%20(4).pdf. Response Code: <strong>200</strong>. Size: <strong>2147932</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Third Quarter Report (PDF 474 KB): http://s1.q4cdn.com/038672619/files/MDA%20&%20FS%20Q3%202012_v001_i1kyrr.pdf. Response Code: <strong>200</strong>. Size: <strong>485032</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 Second Quarter Report (PDF 1.02 MB): http://s1.q4cdn.com/038672619/files/Q2%202012%20MDA%20Financials%20FINAL_v001_p99533.pdf. Response Code: <strong>200</strong>. Size: <strong>1046920</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2012 First Quarter Report (PDF 496 KB): http://s1.q4cdn.com/038672619/files/Financials%20Q1%202012_v001_z7rr8t.pdf. Response Code: <strong>200</strong>. Size: <strong>508406</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Third Quarter Report (PDF 435 KB): http://s1.q4cdn.com/038672619/files/Q3%202011%20MD&A-Financials.pdf. Response Code: <strong>200</strong>. Size: <strong>445535</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 Second Quarter Report (PDF 1.65 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_Q2_2011_Report_Comp.pdf. Response Code: <strong>200</strong>. Size: <strong>1692036</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2011 First Quarter Report (PDF 735 KB): http://s1.q4cdn.com/038672619/files/doc_financial/q1_2011_final_mda_fs_combined_for_printing.pdf. Response Code: <strong>200</strong>. Size: <strong>752470</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Third Quarter Report (PDF 519 KB): http://s1.q4cdn.com/038672619/files/Financial%20Report%20Q3%202010_v001_b1yi33.pdf. Response Code: <strong>200</strong>. Size: <strong>531739</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 Second Quarter Report (PDF 803 KB): http://s1.q4cdn.com/038672619/files/doc_financial/MDA_FS_2010_06_Amended.pdf. Response Code: <strong>200</strong>. Size: <strong>821992</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2010 First Quarter Report (PDF 389 KB): http://s1.q4cdn.com/038672619/files/doc_financial/MDA_FS_Final_Combined_2010_03.pdf. Response Code: <strong>200</strong>. Size: <strong>398507</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Third Quarter Report (PDF 538 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp_complete_Q3-2009.pdf. Response Code: <strong>200</strong>. Size: <strong>551211</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 Second Quarter Report (PDF 458 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Goldcorp-Q2-Report.pdf. Response Code: <strong>200</strong>. Size: <strong>469044</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2009 First Quarter Report (PDF 340 KB): http://s1.q4cdn.com/038672619/files/doc_financial/2009_G_Q1_MDA_and_Financial_Statements_May_5_.pdf. Response Code: <strong>200</strong>. Size: <strong>348331</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Third Quarter Report (PDF 896 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q32008Report.pdf. Response Code: <strong>200</strong>. Size: <strong>917791</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 Second Quarter Report (PDF 1.38 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Q22008Report.pdf. Response Code: <strong>200</strong>. Size: <strong>1410905</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2008 First Quarter Report (PDF 287 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q12008Report.pdf. Response Code: <strong>200</strong>. Size: <strong>293416</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 Third Quarter Report (PDF 894 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q32007Report.pdf. Response Code: <strong>200</strong>. Size: <strong>915252</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 Second Quarter Report (PDF 1.65 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Q22007Report.pdf. Response Code: <strong>200</strong>. Size: <strong>1691972</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2007 First Quarter Report (PDF 1.60 MB): http://s1.q4cdn.com/038672619/files/doc_financial/Q12007Report.pdf. Response Code: <strong>200</strong>. Size: <strong>1642011</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2006 Third Quarter Report (PDF 260 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q32006Report.pdf. Response Code: <strong>200</strong>. Size: <strong>266133</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2006 Second Quarter Report (PDF 237 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q22006Report.pdf. Response Code: <strong>200</strong>. Size: <strong>243099</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2006 First Quarter Report (PDF 268 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Q12006Report.pdf. Response Code: <strong>200</strong>. Size: <strong>273960</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2005 Third Quarter Report (PDF 194 KB): http://s1.q4cdn.com/038672619/files/doc_financial/G-3Q-05.pdf. Response Code: <strong>200</strong>. Size: <strong>198722</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2005 Second Quarter Report (PDF 188 KB): http://s1.q4cdn.com/038672619/files/doc_financial/2005_Q2.pdf. Response Code: <strong>200</strong>. Size: <strong>192350</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2005 First Quarter Report (PDF 159 KB): http://s1.q4cdn.com/038672619/files/doc_financial/Final_Q1_Report.pdf. Response Code: <strong>200</strong>. Size: <strong>163186</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2004 Third Quarter Report  (PDF 138 KB): http://s1.q4cdn.com/038672619/files/doc_financial/G-3Q-04.pdf. Response Code: <strong>200</strong>. Size: <strong>141511</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2004 Second Quarter Report (PDF 133 KB): http://s1.q4cdn.com/038672619/files/doc_financial/G-2Q-04.pdf. Response Code: <strong>200</strong>. Size: <strong>136034</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> 2004 First Quarter Report (PDF 112 KB): http://s1.q4cdn.com/038672619/files/doc_financial/GLD1Q-04&MDAwebsite.pdf. Response Code: <strong>200</strong>. Size: <strong>114937</strong><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>200</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1511Srn3.png">1511Srn3</a> captured<br>]]>
+            </line>
+            <line>
+              <![CDATA[</div>]]>
+            </line>
+            <line>
+              <![CDATA[<br><font size="3"><strong> ----- News and Press Releases Page ----- </strong></font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="#Output-3-1493News and Press Releases Page" onClick='toggleBox("Output-3-1493News and Press Releases Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/News/default.aspx">http://www.goldcorp.com/English/Investor-Resources/News/default.aspx</strong></a></font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class='log' id="Output-3-1493News and Press Releases Page">]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - News
+</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1493Srn3.png">1493Srn3</a> captured<br>]]>
+            </line>
+            <line>
+              <![CDATA[</div>]]>
+            </line>
+            <line>
+              <![CDATA[<br><font size="3"><strong> ----- Events Page ----- </strong></font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="#Output-3-1498Events Page" onClick='toggleBox("Output-3-1498Events Page", this, "Show output", "Hide output");'>Show output</a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="green">Passed:</font> <font color="darkblue"><strong><a href="http://www.goldcorp.com/English/Investor-Resources/Events-and-Webcasts/default.aspx">http://www.goldcorp.com/English/Investor-Resources/Events-and-Webcasts/default.aspx</strong></a></font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class='log' id="Output-3-1498Events Page">]]>
+            </line>
+            <line>
+              <![CDATA[<font size="2"><strong>1. Checkpoint Name: </strong>Page Title</font><br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<font color="green">Passed:</font> Actual result <strong>
+	Goldcorp Inc. - Investor Resources - Events & Webcasts
+</strong> is the same as expected result.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot <a href="../../../ScreenShots/Q4Web/1498Srn3.png">1498Srn3</a> captured<br>]]>
+            </line>
+            <line>
+              <![CDATA[</div>]]>
+            </line>
+            <line>
+              <![CDATA[<br><font size="3"><strong> ----- RSS Feeds page ----- </strong></font><br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color="orange">Info:</font> Page isn't found - <strong>.+(rss-feed[s]*|-rss|feed[s]*)/default.aspx</strong><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Q4Web_SmokeMigrationTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:q4WebTest.ThreadLocalDemo@cd2dae5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-24T10:07:26Z" finished-at="2016-06-24T10:07:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- q4WebTest.ThreadLocalDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

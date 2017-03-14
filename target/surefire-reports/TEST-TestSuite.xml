@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="147.542" tests="39" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.country.format" value="CA"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/philipsushkov/IdeaProjects/Q4Testing/Q4WebTestProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/philipsushkov/IdeaProjects/Q4Testing/Q4WebTestProject"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/26/xx5t24d11lbgcjt6d3hm31j00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/philipsushkov/bin/apache-maven-3.3.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/philipsushkov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/philipsushkov"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="philipsushkov"/>
+    <property name="java.class.path" value="/Users/philipsushkov/bin/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/philipsushkov/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/philipsushkov/bin/apache-maven-3.3.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="13.79"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.842"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="3.126"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.365"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="3.533"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="0.386"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.135"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="0.239"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="4.955"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.533"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.379"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="4.609"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="0.274"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.405"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.872"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.757"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.768"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="5.403"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.307"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="7.386"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.157"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="8.202"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.343"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="0.263"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="0.05"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="0.781"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="5.034"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.444"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.395"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="0.144"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="3.797"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.87"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="1.691"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.859"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="2.372"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="6.92"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="8.605"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="9.025"/>
+  <testcase name="Q4Web_SmokeMigrationTest" classname="q4WebTest.ThreadLocalDemo" time="23.526"/>
+</testsuite>

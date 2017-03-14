@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="instances" data-provider-thread-count="4">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="q4WebTest.WebDriverListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)" parallel="instances">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="q4WebTest.ThreadLocalDemo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Q4Web_SmokeMigrationTest" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- q4WebTest.ThreadLocalDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
