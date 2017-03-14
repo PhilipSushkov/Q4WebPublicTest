@@ -1,140 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="50"
-           failures="3"
+           tests="39"
+           failures="0"
            errors="0"
            skipped="0"
-           time="739.528">
+           time="306.258">
   <properties />
-            <testcase name="Q4Web_SmokeMigrationTest" time="11.400" classname="q4WebTest.ThreadLocalDemo">
-                <failure type="java.lang.AssertionError"
-                  message="Failed: The version of Web-site http://qatest.q4web.com/ can not be defined correctly!. Test failed."
-              >
-<![CDATA[java.lang.AssertionError: Failed: The version of Web-site http://qatest.q4web.com/ can not be defined correctly!. Test failed.
-  org.testng.Assert.fail(Assert.java:94)
-  functions.Q4WebFunctions.Q4Web_BF_GetVersion(Q4WebFunctions.java:441)
-  q4WebTest.ThreadLocalDemo.openHomePage(ThreadLocalDemo.java:385)
-  q4WebTest.ThreadLocalDemo.Q4Web_SmokeMigrationTest(ThreadLocalDemo.java:85)
-  sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:497)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
-  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-  java.util.concurrent.FutureTask.run(FutureTask.java:266)
-  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-  java.util.concurrent.FutureTask.run(FutureTask.java:266)
-  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-  java.lang.Thread.run(Thread.java:745)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="Q4Web_SmokeMigrationTest" time="14.107" classname="q4WebTest.ThreadLocalDemo">
-                <failure type="java.lang.AssertionError"
-                  message="Failed: The version of Web-site http://agrium.q4web.com/ can not be defined correctly!. Test failed."
-              >
-<![CDATA[java.lang.AssertionError: Failed: The version of Web-site http://agrium.q4web.com/ can not be defined correctly!. Test failed.
-  org.testng.Assert.fail(Assert.java:94)
-  functions.Q4WebFunctions.Q4Web_BF_GetVersion(Q4WebFunctions.java:441)
-  q4WebTest.ThreadLocalDemo.openHomePage(ThreadLocalDemo.java:385)
-  q4WebTest.ThreadLocalDemo.Q4Web_SmokeMigrationTest(ThreadLocalDemo.java:85)
-  sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:497)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
-  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-  java.util.concurrent.FutureTask.run(FutureTask.java:266)
-  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-  java.util.concurrent.FutureTask.run(FutureTask.java:266)
-  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-  java.lang.Thread.run(Thread.java:745)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="Q4Web_SmokeMigrationTest" time="17.632" classname="q4WebTest.ThreadLocalDemo">
-                <failure type="java.lang.AssertionError"
-                  message="Failed: The version of Web-site http://aimia.q4web.com/ can not be defined correctly!. Test failed."
-              >
-<![CDATA[java.lang.AssertionError: Failed: The version of Web-site http://aimia.q4web.com/ can not be defined correctly!. Test failed.
-  org.testng.Assert.fail(Assert.java:94)
-  functions.Q4WebFunctions.Q4Web_BF_GetVersion(Q4WebFunctions.java:441)
-  q4WebTest.ThreadLocalDemo.openHomePage(ThreadLocalDemo.java:385)
-  q4WebTest.ThreadLocalDemo.Q4Web_SmokeMigrationTest(ThreadLocalDemo.java:85)
-  sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:497)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
-  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-  java.util.concurrent.FutureTask.run(FutureTask.java:266)
-  java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-  java.util.concurrent.FutureTask.run(FutureTask.java:266)
-  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-  java.lang.Thread.run(Thread.java:745)
-]]>
-      </failure>
-
-          </testcase>
   
   
-            <testcase name="Q4Web_SmokeMigrationTest" time="9.193" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="14.306" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="10.759" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="12.094" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="30.011" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="9.470" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="21.156" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="13.884" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.219" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="12.850" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.530" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="31.450" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="9.722" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="21.257" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="15.374" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="18.362" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="12.467" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="10.736" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="10.941" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.900" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="8.951" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="19.583" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="12.901" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="16.133" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="12.225" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="17.766" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="10.761" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="15.397" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.336" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="10.888" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="26.599" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="29.547" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="9.965" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="22.766" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.424" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="10.155" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="10.001" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="9.987" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.298" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="8.301" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="24.517" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="12.424" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.429" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="11.505" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="12.218" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="15.210" classname="q4WebTest.ThreadLocalDemo" />
-                <testcase name="Q4Web_SmokeMigrationTest" time="24.421" classname="q4WebTest.ThreadLocalDemo" />
+            <testcase name="Q4Web_SmokeMigrationTest" time="5.878" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.923" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.430" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="9.332" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="5.690" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.799" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="5.148" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.924" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="7.600" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="10.243" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="5.351" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.116" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="5.053" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="4.976" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="22.943" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.768" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.971" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.219" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.940" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="7.188" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="4.601" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="4.862" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="24.997" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="4.855" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="4.644" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.773" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.048" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="5.114" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="10.356" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.423" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="9.602" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="14.650" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="7.073" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="7.929" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="8.458" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.542" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="4.395" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="6.114" classname="q4WebTest.ThreadLocalDemo" />
+                <testcase name="Q4Web_SmokeMigrationTest" time="5.330" classname="q4WebTest.ThreadLocalDemo" />
       
 </testsuite>

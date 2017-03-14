@@ -9,6 +9,7 @@ import java.util.logging.Level;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.logging.LogType;
@@ -36,34 +37,49 @@ class LocalDriverFactory {
         	
         	if (propConf.getProperty("NetworkErrors").equals(sNetworkErrorsShow)) {
     			// ######################################
-        		BrowserMobProxy proxyTemp = new BrowserMobProxyServer();
-        				
-    		    // start the proxy
-        		proxyTemp.start();
-        		
-    		    // get the Selenium proxy object
-    		    Proxy selProxy = ClientUtil.createSeleniumProxy(proxyTemp);
+                BrowserMobProxy proxyTemp = new BrowserMobProxyServer();
 
-    		    // configure it as a desired capability
-    		    DesiredCapabilities capabilities = new DesiredCapabilities();
-    		    capabilities.setCapability(CapabilityType.PROXY, selProxy);
-    		    capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+                // start the proxy
+                proxyTemp.start();
+
+                // get the Selenium proxy object
+                Proxy selProxy = ClientUtil.createSeleniumProxy(proxyTemp);
+
+                // configure it as a desired capability
+                DesiredCapabilities capabilities = new DesiredCapabilities().chrome();
+                capabilities.setCapability(CapabilityType.PROXY, selProxy);
+                capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
                 //capabilities.setJavascriptEnabled(true);
                 //capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, new String[] {"--web-security=no", "--ignore-ssl-errors=yes"});
 
-    		    
+
                 LoggingPreferences loggingprefs = new LoggingPreferences();
                 loggingprefs.enable(LogType.BROWSER, Level.ALL);
                 capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
+
+                //DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("incognito");
+                options.addArguments("no-sandbox");
+                capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+                driver = new ChromeDriver(capabilities);
+
                 //driver = new PhantomJSDriver(capabilities);
-                driver = new FirefoxDriver(capabilities);
+                //driver = new FirefoxDriver(capabilities);
                 //driver = new ChromeDriver(capabilities);
 
                 proxy = proxyTemp;
         		
         	} else {
-        		driver = new FirefoxDriver();
+        		//driver = new FirefoxDriver();
+
+                DesiredCapabilities capabilities = new DesiredCapabilities().chrome();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("incognito");
+                options.addArguments("no-sandbox");
+                capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+                driver = new ChromeDriver(capabilities);
         	}
     		
             return driver;
