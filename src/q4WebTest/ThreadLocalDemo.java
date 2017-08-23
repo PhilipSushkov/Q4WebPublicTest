@@ -84,7 +84,7 @@ public class ThreadLocalDemo extends Q4WebFunctions {
 	    // Check if the web-site opens
 		openHomePage(searchTerm, ID);
 
-		/*
+
 		
 		try {
 			invokeBrowser(searchTerm + propUI.getProperty("Pgs_Smoke_SiteMap"));
@@ -362,7 +362,6 @@ public class ThreadLocalDemo extends Q4WebFunctions {
 			proxyLoc.stop();			
 		}
 
-		*/
 		
     }
  
